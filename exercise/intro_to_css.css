@@ -1,0 +1,18 @@
+/* Cascading Style Sheet */
+
+/* For all H1 elements, I want the font color to be red, and the size to be 44px */
+h1 {
+    color: rgb(219, 9, 219);
+    font-size: 30px;
+    background-color: mediumpurple;
+}
+
+h2 {
+    color: rgb(22, 54, 124);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    background-color: beige;
+    color: seagreen;
+}
