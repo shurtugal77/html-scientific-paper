@@ -1,6 +1,13 @@
 /* Cascading Style Sheet */
 
 /* For all H1 elements, I want the font color to be red, and the size to be 44px */
+
+body {
+    background-color: rgb(226, 11, 197);
+    /* text-shadow: red 100px 5px 5px;
+    mix-blend-mode: difference; */
+}
+
 h1 {
     color: rgb(219, 9, 219);
     font-size: 30px;
@@ -8,11 +15,35 @@ h1 {
 }
 
 h2 {
-    color: rgb(22, 54, 124);
+    color: rgb(15, 194, 12);
+    font-size: 100px;
+    text-shadow: red 100px 5px 5px;
+    background-color: rgb(66, 67, 71);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p {
     background-color: beige;
     color: seagreen;
+}
+
+.meineSuperSpezielleKlasse {
+    color: aqua;
+    background-color: rgb(213, 177, 17);
+}
+
+header {
+    color: darkslateblue;
+    background-color: black;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: ultra-expanded;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: '\1FAE0';
 }
