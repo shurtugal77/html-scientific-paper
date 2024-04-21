@@ -1,0 +1,22 @@
+.mahWeather {
+    background-color: bisque;
+    width: 500px;
+}
+
+.heute {
+    background-color: antiquewhite;
+    border: 0.3em dashed black;
+}
+
+#heute {
+    color: aqua;
+}
+
+
+.morgen {
+    text-transform: capitalize;
+    border: .3em dashed blueviolet;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-bottom: 50px;
+}
